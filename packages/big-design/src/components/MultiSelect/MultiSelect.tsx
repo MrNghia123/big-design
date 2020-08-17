@@ -47,7 +47,6 @@ export const MultiSelect = typedMemo(
     required,
     style,
     value,
-    filterFunction,
     ...rest
   }: MultiSelectProps<T>): ReturnType<React.FC<MultiSelectProps<T>>> => {
     // Merge options and action
@@ -85,10 +84,8 @@ export const MultiSelect = typedMemo(
       setInputValue(changes.inputValue || '');
     };
     const filterOptions = (inputVal = '') => {
-      return flattenedOptions.filter(
-        typeof filterFunction === 'function'
-          ? filterFunction(action, inputVal)
-          : (option) => option === action || option.content.toLowerCase().startsWith(inputVal.trim().toLowerCase()),
+      return initialOptions.filter(
+        (option) => option === action || option.content.toLowerCase().includes(inputVal.trim().toLowerCase()),
       );
     };
 

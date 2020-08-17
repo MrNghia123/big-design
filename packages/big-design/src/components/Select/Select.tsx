@@ -49,7 +49,6 @@ export const Select = typedMemo(
     required,
     style,
     value,
-    filterFunction,
     ...rest
   }: SelectProps<T>): ReturnType<React.FC<SelectProps<T>>> => {
     // Merge options and action
@@ -104,11 +103,9 @@ export const Select = typedMemo(
 
     const filterOptions = (inputVal = '') => {
       return flattenedOptions.filter(
-        typeof filterFunction === 'function'
-          ? filterFunction(action, inputVal)
-          : (option) =>
-              option.content === (action && action.content) ||
-              option.content.toLowerCase().startsWith(inputVal.trim().toLowerCase()),
+        (option) =>
+          option.content === (action && action.content) ||
+          option.content.toLowerCase().startsWith(inputVal.trim().toLowerCase()),
       );
     };
 
