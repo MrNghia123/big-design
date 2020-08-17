@@ -1,0 +1,1 @@
+{"version":3,"file":"styled.d.ts","sourceRoot":"","sources":["../../../src/components/Switch/styled.tsx"],"names":[],"mappings":"AAMA,eAAO,MAAM,cAAc,2GAQ1B,CAAC;AAEF,aAAK,gBAAgB,GAAG;IACtB,OAAO,CAAC,EAAE,OAAO,CAAC;IAClB,QAAQ,CAAC,EAAE,OAAO,CAAC;CACpB,CAAC;AAEF,eAAO,MAAM,iBAAiB,yHAuE7B,CAAC"}

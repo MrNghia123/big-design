@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/components/Typography/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,IAAI,aAAa,EAAE,SAAS,IAAI,UAAU,EAAE,MAAM,SAAS,CAAC;AAEjF,OAAO,EAAE,IAAI,EAAE,KAAK,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,MAAM,cAAc,CAAC;AAE/D,oBAAY,SAAS,GAAG,UAAU,CAAC;AACnC,oBAAY,YAAY,GAAG,aAAa,CAAC"}

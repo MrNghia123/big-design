@@ -1,0 +1,11 @@
+export declare const StyledTableFigure: import("styled-components").StyledComponent<"figure", import("styled-components").DefaultTheme, Partial<{
+    margin: "none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge" | import("../../types").Responsive<"none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge">;
+    marginTop: "none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge" | import("../../types").Responsive<"none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge">;
+    marginRight: "none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge" | import("../../types").Responsive<"none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge">;
+    marginBottom: "none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge" | import("../../types").Responsive<"none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge">;
+    marginLeft: "none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge" | import("../../types").Responsive<"none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge">;
+    marginVertical: "none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge" | import("../../types").Responsive<"none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge">;
+    marginHorizontal: "none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge" | import("../../types").Responsive<"none" | "small" | "xxSmall" | "xSmall" | "medium" | "large" | "xLarge" | "xxLarge" | "xxxLarge">;
+}>, never>;
+export declare const StyledTable: import("styled-components").StyledComponent<"table", import("styled-components").DefaultTheme, {}, never>;
+//# sourceMappingURL=styled.d.ts.map
